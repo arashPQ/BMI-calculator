@@ -11,7 +11,7 @@ from settings import *
 class App(ctk.CTk):
     def __init__(self):
         super().__init__(fg_color = Green)
-        self.title("BMI Calculator")
+        self.title("Volume Calculator")
         self.geometry("400x400")
         self.resizable(False, False)
 
